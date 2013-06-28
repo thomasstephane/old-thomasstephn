@@ -1,3 +1,5 @@
+$background: url(asset_path("bg.jpg", images));
+$base-color: #454545;
 
 @mixin menu-brackets {
   position: relative;
@@ -45,4 +47,3 @@
   -webkit-transition: all 0.5s linear; /* Safari and Chrome */
   -o-transition     : all 0.5s linear; /* Opera */
 }
-$base-color: #454545;

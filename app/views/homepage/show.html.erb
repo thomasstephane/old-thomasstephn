@@ -2,12 +2,14 @@
 <div class="main">
   <div class="welcome">
       <div class="first">
-        <h2>hello</h2>
+        <%= link_to "mailto:hello@thomasstephn.com?Subject=Hi" do %>
+          <h2>hello</h2>
+        <% end %>
         <div class="bracket">
           <span>
-            <a href="mailto:hello@thomasstephn.com?Subject=Hi">
+              <%= link_to "mailto:hello@thomasstephn.com?Subject=Hi" do %>
               <h6>What's up?</h6>
-            </a>
+            <% end %>
           </span>
         </div>
       </div>
@@ -19,10 +21,15 @@
             </a>
           </span>
         </div>
+        <%= link_to "mailto:hello@thomasstephn.com?Subject=Hi" do %>
+
         <h2>@thomasstephn</h2>
+        <% end %>
       </div>
       <div class="last">
+        <%= link_to "mailto:hello@thomasstephn.com?Subject=Hi" do %>
         <h2>.com</h2>
+        <% end %>
         <div class="bracket">
           <span>
             <h6>That's where you are now</h6>
