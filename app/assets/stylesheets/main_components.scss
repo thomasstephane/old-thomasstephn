@@ -29,7 +29,7 @@ h1 {
   font-size: 72px;
 }
 
-h2, 
+h2,
 h2 a {
   font-size: 48px;
 }
@@ -79,7 +79,7 @@ h6 {
       }
       span h6 {
         position:relative;
-        bottom : -36px;   
+        bottom : -36px;
       }
     }
     .middle {
@@ -95,7 +95,7 @@ h6 {
       }
       span h6 {
         position:relative;
-        top : -36px;   
+        top : -36px;
       }
     }
     .last {
@@ -108,10 +108,18 @@ h6 {
         @include border-bottom-right-rad;
         @include border-bottom-left-rad;
         right: 0px;
+        p {
+          display: none;
+          a {
+          font-size: 18px;
+          line-height: 58px;
+          }
+        }
       }
       span h6 {
+        overflow: visible;
         position:relative;
-        bottom : -36px;  
+        bottom : -36px;
       }
     }
   }
