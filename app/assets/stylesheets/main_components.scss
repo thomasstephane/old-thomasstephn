@@ -160,6 +160,7 @@ div.photoslide {
 
 .photoslide div {
   width: 440px;
+  padding-bottom: 69px;
   display: inline-block;
   vertical-align: top;
   h2 {
@@ -216,6 +217,10 @@ div.kenburns[zoomin=true] {
   @include transition_duration_05;
   @include transition_timing_function_ease_in_out;
   @include transform_translate_z;
+}
+
+div.menuImage {
+  padding-bottom: 0px;
 }
 
 .menuImage {

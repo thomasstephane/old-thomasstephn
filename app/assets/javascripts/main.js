@@ -17,4 +17,15 @@ $(document).ready(function() {
     }, 800);
     $('.last .bracket p').slideUp("slow");
   });
+
+  $('.menuImage').hover(function(){
+    $(this).parent().animate({
+      'padding-bottom' : '0px'
+    }, 500);
+  });
+  $('.menuImage').on('mouseleave',function(){
+    $(this).parent().animate({
+      'padding-bottom' : '69px'
+    }, 500);
+  });
 });
