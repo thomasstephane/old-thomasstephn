@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $('.last').hover(function() {
+  $('.welcome').hover(function() {
     $('.last .bracket').animate({
       height: '58px'
     }, 800);
