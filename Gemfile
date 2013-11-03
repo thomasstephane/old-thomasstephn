@@ -2,6 +2,8 @@ source 'https://rubygems.org'
 ruby '2.0.0'
 
 gem 'rails', '4.0.0'
+gem 'backbone-on-rails'
+gem 'bcrypt-ruby', '3.0.0'
 gem 'pg'
 gem 'newrelic_rpm'
 
