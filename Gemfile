@@ -6,6 +6,7 @@ gem 'backbone-on-rails'
 gem 'bcrypt-ruby', '3.0.0'
 gem 'pg'
 gem 'newrelic_rpm'
+gem 'rails_12factor'
 
 #assets
 gem 'sass-rails', '~> 4.0.0.rc2'
