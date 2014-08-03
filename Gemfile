@@ -1,17 +1,17 @@
 source 'https://rubygems.org'
-ruby '2.0.0'
+ruby '2.1.1'
 
-gem 'rails', '4.0.0'
+gem 'rails', '4.0.8'
 gem 'backbone-on-rails'
 gem 'bcrypt-ruby', '3.0.0'
 gem 'pg'
 gem 'newrelic_rpm'
-gem 'rails_12factor'
+gem 'rails_12factor', group: :production
 
 #assets
-gem 'sass-rails', '~> 4.0.0.rc2'
-gem 'uglifier', '>= 1.3.0'
-gem 'coffee-rails', '~> 4.0.0'
+gem 'sass-rails'
+gem 'uglifier'
+gem 'coffee-rails'
 gem 'jquery-rails'
 gem 'jquery-turbolinks'
 gem 'jquery-ui-rails', '2.0.2'
